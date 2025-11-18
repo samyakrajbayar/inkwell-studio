@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        handwriting: ['Caveat', 'Permanent Marker', 'cursive'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +49,13 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        note: {
+          yellow: "hsl(var(--note-yellow))",
+          pink: "hsl(var(--note-pink))",
+          blue: "hsl(var(--note-blue))",
+          green: "hsl(var(--note-green))",
+          purple: "hsl(var(--note-purple))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

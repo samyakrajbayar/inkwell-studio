@@ -1,0 +1,4 @@
+project_id = "ojtkpxhdzdisefkyervs"
+
+[functions.generate-font]
+verify_jwt = false
